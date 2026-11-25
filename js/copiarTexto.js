@@ -20,11 +20,11 @@ function mostrarToast(mensagem) {
 
 // Copia o usuário do Discord (definido em data-copy) para a área de transferência
 function copiarTexto() {
-    const elemento = document.getElementById("lokiiiChr");
+    const elemento = document.getElementById("lokistrange");
     const texto = elemento?.dataset.copy?.trim() ?? "";
 
     if (!texto) {
-        console.error("lokiiiChr não encontrado ou está vazio.");
+        console.error("não encontrado ou está vazio.");
         return;
     }
 
